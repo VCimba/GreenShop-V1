@@ -5,15 +5,21 @@
     color: black;
 }
 
-.registerr, .login {
-    font-size: 30px
-}
-
-.first {
+.linkss, .registerr {
     display: block;
-    right: auto;
+    text-align:center;
 }
 
+.up, .links {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.firrst, .down {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .linkss, .links {
     text-decoration: none;
 }
@@ -22,6 +28,6 @@
     background-color: green;
     color: white;
 }
-
+ 
 
 
