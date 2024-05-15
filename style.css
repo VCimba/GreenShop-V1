@@ -1,0 +1,27 @@
+.registerr {
+    color: #008000;
+}
+.login, .links {
+    color: black;
+}
+
+.registerr, .login {
+    font-size: 30px
+}
+
+.first {
+    display: block;
+    right: auto;
+}
+
+.linkss, .links {
+    text-decoration: none;
+}
+
+.register {
+    background-color: green;
+    color: white;
+}
+
+
+
