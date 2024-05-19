@@ -1,26 +1,27 @@
 .registerr {
     color: #008000;
 }
-.login, .links {
+.links {
     color: black;
 }
 
-.linkss, .registerr {
+.linkss {
     display: block;
     text-align:center;
 }
 
-.up, .links {
+.links {
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 
-.firrst, .down {
+.firrst {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
 }
-.linkss, .links {
+.linkss {
     text-decoration: none;
 }
 
