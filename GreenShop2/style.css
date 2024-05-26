@@ -21,6 +21,7 @@ body {
     border-radius: 6px;
     line-height: 20px;
     size: 16px;
+    border-style: none;
 }
 
 .up {
@@ -38,14 +39,18 @@ body {
 }
 
 .activate {
-    padding-top: 25px;
+    padding-top: 53px;
     border-bottom: 2px solid green;
 }
 
 .center {
     background-color: #F5F5F580;
     padding-top: 12x;
-    padding-left: 120px;
+}
+
+.center-in {
+    display: inline-block;
+    width: 557px;
 }
 
 .welcome {
@@ -67,9 +72,9 @@ body {
     height: 140px;
     font-size: 70px;
     line-height: 70px;
-   color: #3D3D3D;
-   margin-left: 40px;
-   margin-right: 630px;
+    color: #3D3D3D;
+    margin-left: 40px;
+    margin-right: 630px;
 }
 
 .span {
@@ -95,5 +100,11 @@ body {
     margin-bottom: 85px;
     margin-left: 41px;
     margin-right: 1019px;
-    margin-top: 44pxg;
+    margin-top: 44px;
+    border-style: none;
+}
+
+.plant {
+    display: inline-block;
+    padding-top: 95px;
 }
