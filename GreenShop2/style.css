@@ -13,11 +13,14 @@ body {
 }
 
 .button {
-    background-color: green;
+    background-color: #46A358;
     color: white;
     width: 100px;
     height: 35px;
     margin-left: 370px;
+    border-radius: 6px;
+    line-height: 20px;
+    size: 16px;
 }
 
 .up {
@@ -30,7 +33,67 @@ body {
     margin-left: 50px;
 }
 
+.header {
+    padding-top: 30px;
+}
+
 .activate {
     padding-top: 25px;
     border-bottom: 2px solid green;
+}
+
+.center {
+    background-color: #F5F5F580;
+    padding-top: 12x;
+    padding-left: 120px;
+}
+
+.welcome {
+    line-height: 16px;
+    font-size: 14px;
+    width: 205px;
+    height: 16px;
+    color: #3D3D3D;
+    margin-right: 952px;
+    margin-left: 43px;
+    margin-top: 68px;
+    margin-bottom: 7px;
+}
+
+.better {
+    margin-bottom: 5px;
+    margin-top: 7px;
+    width: 530px;
+    height: 140px;
+    font-size: 70px;
+    line-height: 70px;
+   color: #3D3D3D;
+   margin-left: 40px;
+   margin-right: 630px;
+}
+
+.span {
+    color: #46A358;
+}
+
+.blabla {
+    color: #727272;
+    size: 14px;
+    line-height: 24px;
+    width: 557px;
+    height: 45px;
+    margin-right: 600px;
+    margin-left: 43px;
+}
+
+.downb {
+    color: #FFFFFF;
+    background-color: #46A358;
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    margin-bottom: 85px;
+    margin-left: 41px;
+    margin-right: 1019px;
+    margin-top: 44pxg;
 }
