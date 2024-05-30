@@ -17,14 +17,17 @@ body {
     background-color: #46A358;
     color: white;
     width: 100px;
-    margin-left: 370px;
+    height: 35px;
+    margin-left: 1100px;
     border-radius: 6px;
     line-height: 20px;
     size: 16px;
     border-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
-.up {
+.up{
     display: inline-block;
 }
 
@@ -32,6 +35,11 @@ body {
     text-decoration: none;
     color: #3D3D3D;
     margin-left: 50px;
+}
+
+.texts {
+    margin-left: 229px;
+    margin-right: 370px;
 }
 
 .header {
@@ -55,6 +63,9 @@ body {
     width: 557px;
 }
 
+.ml {
+    margin-left: 43px;
+}
 .welcome {
     line-height: 16px;
     font-size: 14px;
@@ -63,10 +74,12 @@ body {
 }
 
 .better {
-    margin-bottom: 5px;
+    margin-top: 0;
     font-size: 70px;
     line-height: 70px;
     color: #3D3D3D;
+    width: 530px;    
+    margin-bottom: 5px;
 }
 
 .span {
@@ -78,7 +91,8 @@ body {
     size: 14px;
     line-height: 24px;
     width: 557px;
-    margin-right: 600px;
+    margin-left: 3px;
+    margin-bottom: 44px;
     margin-left: 43px;
 }
 
@@ -88,14 +102,16 @@ body {
     width: 140px;
     border-radius: 6px;
     margin-bottom: 85px;
-    margin-left: 41px;
-    margin-right: 1019px;
+    margin-left: 2px;
     margin-top: 44px;
     border-style: none;
     height: 40px;
+    margin-left: 43px;
 }
 
 .plant {
     display: inline-block;
-    padding-top: 95px;
+    padding-top: 12px;
+    width: 507px;
+    height: 450px;
 }
