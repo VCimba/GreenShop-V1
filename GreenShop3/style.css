@@ -4,6 +4,12 @@
     margin-right: auto;
 }
 
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -17,9 +23,8 @@
 .cate {
     font-size: 15px;
     line-height: 40px;
-    margin-left: 30px;
+    padding-left: 30px;
     padding-right: 189px;
-    padding-top: 171px;
     padding-bottom: 377px;
 }
 
@@ -35,31 +40,35 @@
 }
 
 .pl {
-    padding-left: 12px;
+    padding-left: 18px;
+    padding-right: 189px;
 }
 
 .cater {
-    height: 16px;
     padding-bottom: 7px;
 }
 
 .right {
     width: 840px;
     float: left;
-    padding-left: 50px;
-    margin-top: 181px;
+    margin-left: 50px;
 }
 
 .nav {
     margin: 0px;
     margin-bottom: 31px;
     text-decoration: none;
+    height: 23px;
 }
 
 .linksss {
     margin-right: 35px;
     color: #3d3d3d;
     text-decoration: none;
+}
+
+.ww {
+    margin-right: 0px;
 }
 
 .linksss:hover {
@@ -86,7 +95,7 @@
     float: left;
 }
 
-.card {
+.card { 
     float: left;
     width: 258px;
     text-align: center;
@@ -105,6 +114,7 @@
 .name {
     height: 16px;
 }
+
 .price {
     color: #46A358;
     height: 16px;
@@ -112,6 +122,7 @@
 
 .cards {
     width: 840px;
+    background-color: #FBFBFB;
 }
 
 .page {
@@ -120,15 +131,21 @@
 }
 
 .buton {
-    width: 35px;
-    height: 35px;
     border-radius: 4px;
     border-style: none;
     color: #3D3D3D;
     border: 1px solid #E5E5E5;
+    text-decoration: none;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
 .buton:hover {
     color: #FFFFFF;
     background-color: #46A358;
 }
+
