@@ -24,13 +24,12 @@
     font-size: 15px;
     line-height: 40px;
     padding-left: 30px;
-    padding-right: 189px;
-    padding-bottom: 377px;
+    padding-right: 30px;
+    margin-bottom: 377px;
 }
 
 .links {
     text-decoration: none;
-    font-style: 15px;
     color: #3D3D3D;
     line-height: 40px;
 }
@@ -95,6 +94,10 @@
     float: left;
 }
 
+.leftt:nth-last-child() {
+    margin-right: 0px;
+}
+
 .card { 
     float: left;
     width: 258px;
@@ -112,7 +115,7 @@
 }
 
 .name {
-    height: 16px;
+    padding-bottom: 6px;
 }
 
 .price {
