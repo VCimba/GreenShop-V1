@@ -16,9 +16,8 @@
 
 .more {
     width: 150px;
-    margin-left: 115px;
+    padding-left: 406px;
     margin-bottom: 9px;
-    padding-top: 37px;
     text-align: right;
 }
 
@@ -42,5 +41,83 @@
 }
 
 .boxes {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.right {
+    margin-left: 28px;
+    width: 586px;
+}
+
+.styling {
+    width: 146px;
+    padding-left: 116px;
+    text-align: right;
+}
+
+.pp {
+    color: #727272;
+    margin-top: 6px;
+    text-align: right;
+    width: 292px;
+}
+
+.blogs {
+    margin-left: 496px;
+    margin-right: 497px;
+    color: #3D3D3D;
+    margin-bottom: 15px;
+    width: 209px;
+}
+
+.ppp {
+    color:#727272;
+    margin-right: 323px;
+    margin-left: 322px;
+}
+
+.downn {
+    margin-left: 119px;
+}
+
+.img {
+    width: 268px;
+}
+
+.box {
+    width: 242px;
     display: flex;
+}
+
+.texta {
+    margin-left: 15px;
+}
+
+.pe {
+    color: #46A358;
+    margin-bottom: 4px;
+}
+
+.ht {
+    color: #3D3D3D;
+    text-align: left;
+    margin-top: 0px;
+    width: 189px;
+    margin-bottom: 9px;
+}
+
+.pr {
+    color:#727272 ;
+    margin-top: 0px;
+}
+
+.moer {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.moer:hover {
+    color: #46A358;
 }
