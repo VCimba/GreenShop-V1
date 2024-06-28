@@ -7,6 +7,7 @@
 * {
     display: inline-block;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 .menu {
@@ -36,4 +37,43 @@
 
 .linkA {
     margin-left: 105px;
+}
+
+.product {
+    margin-top: 31px;
+    margin-left: 105px;
+}
+
+.price {
+    color: #46A358;
+    margin-top: 6px;
+}
+
+.name {
+    margin-right: 100px;
+    margin-bottom: 0px;
+    color: #3D3D3D;
+}
+
+.plants {
+    width: 258px;
+    margin-left: 33px;
+}
+
+
+.product {
+    position: relative;
+}
+
+.bb {
+    text-decoration: none;
+}
+
+.hover {
+    justify-content: center;
+    display: none;
+}
+
+.plants:hover .hover {
+    display: flex;
 }
